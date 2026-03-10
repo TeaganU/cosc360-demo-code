@@ -1,5 +1,5 @@
-import { Tweet } from "../../domain/classes/Tweet.js";
-import type { ITweet, ITweetWithAuthor } from "../../domain/types/index.js";
+import { Tweet } from "./domain/classes/Tweet.js";
+import type { ITweet, ITweetWithAuthor } from "./domain/types/index.js";
 import * as tweetRepository from "./tweet.repository.js";
 import * as authRepository from "../auth/auth.repository.js";
 

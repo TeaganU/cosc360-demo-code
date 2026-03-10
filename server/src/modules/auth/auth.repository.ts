@@ -1,7 +1,7 @@
 import fs from "fs";
 import path from "path";
-import { DATA_DIR } from "../../domain/constants/index.js";
-import type { IUser } from "../../domain/types/index.js";
+import { DATA_DIR } from "../../constants.js";
+import type { IUser } from "./domain/types/index.js";
 
 const USERS_FILE: string = path.join(DATA_DIR, "users.json");
 

@@ -1,8 +1,4 @@
-export interface IUser {
-  id: string;
-  username: string;
-  createdAt: string;
-}
+import type { IUser } from "../../auth/domain/types/index.js";
 
 export interface ITweet {
   id: string;
@@ -13,9 +9,4 @@ export interface ITweet {
 
 export interface ITweetWithAuthor extends ITweet {
   author: IUser;
-}
-
-export interface ApiResponse<T> {
-  data?: T;
-  error?: string;
 }

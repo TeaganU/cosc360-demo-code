@@ -1,5 +1,5 @@
-import { User } from "../../domain/classes/User.js";
-import type { IUser } from "../../domain/types/index.js";
+import { User } from "./domain/classes/User.js";
+import type { IUser } from "./domain/types/index.js";
 import * as authRepository from "./auth.repository.js";
 
 export function login(username: string): IUser {

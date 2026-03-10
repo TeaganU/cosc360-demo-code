@@ -1,6 +1,6 @@
 import express from "express";
 import cors from "cors";
-import { PORT } from "./domain/constants/index.js";
+import { PORT } from "./constants.js";
 import { authRoutes } from "./modules/auth/auth.routes.js";
 import { tweetRoutes } from "./modules/tweet/tweet.routes.js";
 import { errorHandler } from "./middleware/error-handler.js";

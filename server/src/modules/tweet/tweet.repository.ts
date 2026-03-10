@@ -1,7 +1,7 @@
 import fs from "fs";
 import path from "path";
-import { DATA_DIR } from "../../domain/constants/index.js";
-import type { ITweet } from "../../domain/types/index.js";
+import { DATA_DIR } from "../../constants.js";
+import type { ITweet } from "./domain/types/index.js";
 
 const TWEETS_FILE: string = path.join(DATA_DIR, "tweets.json");
 
